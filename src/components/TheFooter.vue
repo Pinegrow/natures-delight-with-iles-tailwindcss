@@ -13,7 +13,7 @@
         <div
           class="-mx-4 flex flex-col flex-wrap items-center pl-4 pr-8 py-4 md:flex-col md:flex-nowrap -mt-4 lg:items-start lg:w-1/3"
         >
-          <a href="/" class="-ml-6 flex pg-primary-text">
+          <a href="/" class="-ml-6 flex text-primary-600 dark:text-primary-200">
             <svg
               version="1.0"
               xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@
           <div class="inline-flex mt-6 space-x-3">
             <div class="flex flex-wrap space-x-4">
               <a
-                href="https://www.facebook.com/vuedesigner/"
+                href="https://www.facebook.com/vuedesigner"
                 aria-label="facebook"
                 external
                 target="_blank"
@@ -58,7 +58,7 @@
                   class="text-2xl"
                 ></BaseIcon> </a
               ><a
-                href="https://twitter.com/vuedesigner/"
+                href="https://twitter.com/vuedesigner"
                 aria-label="twitter"
                 external
                 target="_blank"
@@ -68,17 +68,7 @@
                   class="text-2xl"
                 ></BaseIcon> </a
               ><a
-                href="https://forum.pinegrow.com/c/vue-designer"
-                aria-label="discourse"
-                external
-                target="_blank"
-              >
-                <BaseIcon
-                  name="i-logos-discourse-icon"
-                  class="text-2xl"
-                ></BaseIcon> </a
-              ><a
-                href="https://www.youtube.com/@pgvuedesigner/"
+                href="https://www.youtube.com/@vuedesigner"
                 aria-label="youtube"
                 external
                 target="_blank"
@@ -97,35 +87,59 @@
         <div
           class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start"
         >
-          <h2 class="font-bold pg-primary-text text-xl">General</h2>
+          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
+            General
+          </h2>
           <ul class="text-center lg:mt-2 lg:text-left">
             <li class="mb-4">
-              <a href="/" class="hover:pg-primary-text">FAQ</a>
+              <a href="/" class="hover:text-primary-600 dark:text-primary-200"
+                >FAQ</a
+              >
             </li>
             <li class="mb-4">
-              <a href="/" class="hover:pg-primary-text">News</a>
+              <a href="/" class="hover:text-primary-600 dark:text-primary-200"
+                >News</a
+              >
             </li>
             <li class="mb-4">
-              <a href="/" class="hover:pg-primary-text">Careers</a>
+              <a href="/" class="hover:text-primary-600 dark:text-primary-200"
+                >Careers</a
+              >
             </li>
             <li class="mb-4">
-              <a href="/" class="hover:pg-primary-text">Contact Us</a>
+              <a href="/" class="hover:text-primary-600 dark:text-primary-200"
+                >Contact Us</a
+              >
             </li>
           </ul>
         </div>
         <div
           class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start"
         >
-          <h2 class="font-bold pg-primary-text text-xl">Links</h2>
+          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
+            Links
+          </h2>
           <ul class="text-center lg:mt-2 lg:text-left">
             <li class="mb-4">
-              <a href="/articles" class="hover:pg-primary-text">Articles</a>
+              <a
+                href="/articles"
+                class="hover:text-primary-600 dark:text-primary-200"
+                >Articles</a
+              >
             </li>
             <li class="mb-4">
-              <a href="/blog" class="hover:pg-primary-text">Blog</a>
+              <a
+                href="/blog"
+                class="hover:text-primary-600 dark:text-primary-200"
+                >Blog</a
+              >
             </li>
             <li class="mb-4">
-              <a href="/volunteer" class="hover:pg-primary-text">Contact Us</a>
+              <a
+                href="/volunteer"
+                class="hover:text-primary-600 dark:text-primary-200"
+                >Contact Us</a
+              >
             </li>
           </ul>
         </div>

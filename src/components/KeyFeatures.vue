@@ -7,7 +7,7 @@
   // })
 </script>
 <template>
-  <section class="pg-primary-container">
+  <section class="bg-primary-100 dark:bg-primary-700">
     <section class="py-20">
       <div class="container mx-auto px-4 relative">
         <div class="flex flex-wrap -mx-4 items-center mb-4">

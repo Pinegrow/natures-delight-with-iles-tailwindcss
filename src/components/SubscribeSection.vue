@@ -1,6 +1,6 @@
 <template>
   <div
-    class="pb-12 text-center pg-primary-container pg-on-primary-container-text"
+    class="pb-12 text-center bg-primary-100 dark:bg-primary-700 text-primary-900 dark:text-primary-100"
   >
     <div class="container mx-auto px-4">
       <div class="-mx-4 flex flex-wrap">

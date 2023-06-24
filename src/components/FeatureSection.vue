@@ -2,11 +2,13 @@
   import products from '~/data/products.json'
 </script>
 <template>
-  <section class="pg-primary-container pg-on-primary-container-text">
+  <section
+    class="bg-primary-100 dark:bg-primary-700 text-primary-900 dark:text-primary-100"
+  >
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1440 320"
-      class="pg-surface-text"
+      class="text-white dark:text-neutral-950"
       fill="currentColor"
     >
       <path
@@ -18,7 +20,7 @@
       <div class="container mx-auto px-4 relative">
         <div class="flex flex-wrap -mx-4 items-center mb-4">
           <div class="px-4 w-full lg:w-7/12">
-            <h6 class="pg-primary-container-text">Our Products</h6>
+            <h6 class="text-primary-100 dark:text-primary-700">Our Products</h6>
             <h3>Our Featured Menu</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam

@@ -11,7 +11,10 @@
     v-if="post"
     class="p-8 rounded-lg space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0"
   >
-    <PostDate :date="post.date" class="pg-primary-text" />
+    <PostDate
+      :date="post.date"
+      class="text-primary-600 dark:text-primary-200"
+    />
     <div class="space-y-5 xl:col-span-3">
       <div class="space-y-6">
         <h4>

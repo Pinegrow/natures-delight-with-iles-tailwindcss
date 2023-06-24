@@ -21,7 +21,7 @@
 <template>
   <div class="p-4 w-full sm:w-6/12 lg:w-4/12 xl:w-3/12">
     <div
-      class="overflow-hidden pg-on-surface-container-text pg-surface-container rounded-lg"
+      class="overflow-hidden text-neutral-900 dark:text-neutral-100 bg-neutral-50 dark:bg-neutral-900 rounded-lg"
     >
       <img
         class="group-hover:opacity-50 w-full"

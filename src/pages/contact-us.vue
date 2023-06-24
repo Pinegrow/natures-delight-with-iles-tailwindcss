@@ -3,7 +3,9 @@
 </page>
 <template layout="default">
   <section class="pb-12">
-    <div class="py-12 pg-primary pg-on-primary-text">
+    <div
+      class="py-12 bg-primary-600 dark:bg-primary-200 text-white dark:text-primary-800"
+    >
       <div
         class="container flex justify-center mx-auto px-4 relative"
         role="surface"
@@ -94,14 +96,14 @@
                       <select
                         id="country"
                         name="country"
-                        class="bg-none bg-transparent border-0 focus:ring-2 focus:ring-inset focus:ring-primary-container-600 h-full pg-outline-text pl-4 pr-9 py-0 rounded-md sm:text-sm"
+                        class="bg-none bg-transparent border-0 focus:ring-2 focus:ring-inset focus:ring-primary-container-600 h-full pl-4 pr-9 py-0 rounded-md sm:text-sm"
                       >
                         <option>US</option>
                         <option>CA</option>
                         <option>EU</option>
                       </select>
                       <svg
-                        class="absolute h-full pg-outline-text pointer-events-none right-3 top-0 w-5"
+                        class="absolute h-full pointer-events-none right-3 top-0 w-5"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                         aria-hidden="true"

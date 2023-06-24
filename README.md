@@ -1,8 +1,10 @@
 # Nature's Delight - Islands of Interactivity with îles (MPA SSG) and Tailwind CSS!
 
-Nature's Delight is a fresh and organic fictional store implementing the Islands Architecture, which includes statically generated articles fetched via a REST API, a blog authored with markdown files, and everything styled with the power and beauty of Tailwind CSS.
+Nature's Delight is a fresh and organic fictional store that implements the Islands Architecture. It includes statically generated articles fetched via a REST API, a blog authored with markdown files, and everything is styled with the power and beauty of Tailwind CSS.
 
-This is a sample project created using the [Vue Designer îles Tailwind CSS - Quick start template](https://github.com/pinegrow/pg-iles-tailwindcss).
+This project is a sample created using the [Vue Designer îles Tailwind CSS - Quick start template](https://github.com/pinegrow/pg-iles-tailwindcss).
+
+Demo - https://natures-delight-with-iles-tailwindcss.netlify.app
 
 ## Vue Designer
 
@@ -133,4 +135,4 @@ This project allows JS, and strict mode is turned off. Update `tsconfig.ts` as r
 
 ## Community
 
-- [Pinegrow Vue Designer](https://forum.pinegrow.com/c/vue-designer)
+- [Vue Designer Community](https://forum.pinegrow.com/c/vue-designer)

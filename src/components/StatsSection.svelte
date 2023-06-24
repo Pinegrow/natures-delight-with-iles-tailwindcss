@@ -8,7 +8,7 @@
                 <img src="https://images.unsplash.com/photo-1563169372-eb64c121f9dc?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDU3fHxmcnVpdHxlbnwwfHx8fDE2MjkxNzY3MTI&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=1000&h=800&fit=crop" class="rounded-lg w-full" alt="..." width="1000" height="800"/>
             </div>
             <div class="mx-auto p-4 w-full lg:w-6/12">
-                <h6 class="pg-primary-text">Doctors Approved</h6>
+                <h6 class="text-primary-600 dark:text-primary-200">Doctors Approved</h6>
                 <h3>Prepare Yourself For A Healthy Treat Everyday</h3>
                 <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus

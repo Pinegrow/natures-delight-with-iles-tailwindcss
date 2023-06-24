@@ -17,7 +17,10 @@
         <div class="flex h-24 items-center justify-between">
           <div class="flex items-center justify-between w-full">
             <div class="flex flex-shrink-0 items-center">
-              <a href="/" class="flex items-center pg-primary-text">
+              <a
+                href="/"
+                class="flex items-center text-primary-600 dark:text-primary-200"
+              >
                 <svg
                   version="1.0"
                   xmlns="http://www.w3.org/2000/svg"
