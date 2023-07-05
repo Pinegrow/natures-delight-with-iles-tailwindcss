@@ -55,7 +55,11 @@
           </div>
           <DarkModeSwitch client:load />
           <div class="-mr-2 items-center relative">
-            <NavBarMobileMenuButton v-if="mobileNavTabs.length" client:load />
+            <NavBarMobileMenuButton
+              v-if="mobileNavTabs.length"
+              class="hidden sm:block"
+              client:load
+            />
             <NavBarMobileMenuButton
               v-if="navlinks.length"
               class="sm:hidden"
