@@ -8,7 +8,7 @@ Demo - https://natures-delight-with-iles-tailwindcss.netlify.app
 
 ## Vue Designer
 
-A desktop visual editor for Vue apps supporting Mac, Windows, and Linux by [Pinegrow](https://pinegrow.com/). Take it for a free trial at [Vue Designer](https://pinegrow.com/vue-designer)!
+A desktop visual editor for Vue apps supporting Mac, Windows, and Linux by [Pinegrow](https://pinegrow.com/). Take it for a free trial at [Vue Designer](https://vuedesigner.com)!
 
 It lets you visually design 🎨 your Vue single file components and boosts your productivity and creativity while building your component-based Vue apps.
 
