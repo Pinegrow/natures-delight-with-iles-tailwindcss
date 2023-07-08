@@ -29,7 +29,7 @@
               size="xl"
               label="Buy Now"
               target="_blank"
-              to="https://github.com/pinegrow/natures-delight-with-iles-tailwindcss"
+              to="https://vuedesigner.com"
             >
             </BaseButton>
           </div>
