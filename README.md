@@ -2,7 +2,7 @@
 
 Nature's Delight is a fresh and organic fictional store that implements the Islands Architecture. It includes statically generated articles fetched via a REST API, a blog authored with markdown files, and everything is styled with the power and beauty of Tailwind CSS.
 
-This project is a sample created using the [Vue Designer îles Tailwind CSS - Quick start template](https://github.com/pinegrow/pg-iles-tailwindcss).
+This is a sample project created using the [Vue Designer îles Tailwind CSS - Quick start template](https://github.com/pinegrow/pg-iles-tailwindcss).
 
 Demo - https://natures-delight-with-iles-tailwindcss.netlify.app
 
@@ -95,9 +95,9 @@ Check out the [deployment documentation](https://iles.pages.dev/guide/deployment
 
 ### Modules/Plugins
 
-- [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
 - [Pinegrow îles Module](https://www.npmjs.com/package/@pinegrow/iles-module) - enables you to live-design your Vue single-file components visually in Vue Designer.
 - [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) - via Design Panel, enables visual controls customization (automatic) and theme customization (optional).
+- [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
 
 ### Devtools
 
