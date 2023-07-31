@@ -1,5 +1,5 @@
 import { $fetch } from 'ofetch'
-import type { Article, Articles, State } from '~/composables/config'
+import type { Article, Articles, State } from '~/types'
 import { ref } from 'vue'
 
 // const apiBaseUrl = 'http://localhost:3001'

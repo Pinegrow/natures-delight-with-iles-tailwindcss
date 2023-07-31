@@ -39,7 +39,11 @@
             <span>${{ pricePerKg }}/kg</span>
           </div>
           <div class="px-2 py-1 w-full sm:w-auto">
-            <BaseButton><span>Add to Cart</span> </BaseButton>
+            <BaseButton
+              trailing
+              trailing-icon="i-material-symbols-add-shopping-cart"
+              ><span>Add to Cart</span>
+            </BaseButton>
           </div>
         </div>
       </div>

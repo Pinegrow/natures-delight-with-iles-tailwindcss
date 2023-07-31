@@ -84,7 +84,8 @@
           <div class="text-center">
             <span class="whitespace-nowrap"
               >{{ article.reading_time_minutes }} min</span
-            ><span> read</span>
+            >
+            <span> read</span>
           </div>
         </div>
       </div>
