@@ -72,6 +72,10 @@
           "name": "MyButton",
           "attributes": [
             {
+              "name": "label",
+              "placeholder": "My Button"
+            },
+            {
               "name": "size",
               "customType": "select",
               "default": "sm",
@@ -89,6 +93,27 @@
               "default": "",
               "options": ["_blank"]
             }
+          ],
+          "slots": [
+            {
+              "name": "default",
+              "description": "The default Vue slot.",
+              "vue-properties": [
+                {
+                  "name": "disabled-demo",
+                  "description": "Whether or not the Button is disabled. Note, this is not a real slot prop, added here just to show an example of how it is defined in web-types.",
+                  "type": "Boolean"
+                }
+              ]
+            },
+            {
+              "name": "leading",
+              "description": "Use the #leading slot to set the content of the leading icon."
+            },
+            {
+              "name": "trailing",
+              "description": "Use the #trailing slot to set the content of the trailing icon."
+            }
           ]
         },
         {
@@ -99,7 +124,7 @@
       "attributes": [
         {
           "name": "color",
-          "customType": "select",
+          "customType": "color",
           "options": []
         }
       ]
