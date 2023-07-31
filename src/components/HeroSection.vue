@@ -18,7 +18,7 @@
           >
             <div class="flex font-serif items-center">
               <h6>Pure &amp; Organic</h6>
-              <BaseIcon width="32px" class="mb-2 ml-2"></BaseIcon>
+              <BaseIcon height="32px" class="mb-2 ml-2"></BaseIcon>
             </div>
             <h1>Fresh from Delights of Nature</h1>
             <p class="mb-6 sm:pr-12">
