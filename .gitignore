@@ -34,5 +34,7 @@ _pgbackup
 _pginfo
 #optional
 pinegrow.json
-*.d.ts
-!shims.d.ts
+#add any d.ts files that are auto-generated, for eg,
+auto-imports.d.ts
+components.d.ts
+composables.d.ts
