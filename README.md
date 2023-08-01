@@ -1,6 +1,6 @@
-# Nature's Delight - Islands of Interactivity with îles (MPA SSG) and Tailwind CSS!
+# Nature's Delight - Islands of Interactivity with Iles and Tailwind CSS!
 
-Nature's Delight is a fresh and organic fictional store that implements the Islands Architecture. It includes statically generated articles fetched via a REST API, a blog authored with markdown files, and everything is styled with the power and beauty of Tailwind CSS.
+Jamstack (MPA-SSG) app for an fresh & organic fictional store implementing Islands Architecture, statically generated articles fetched from an external REST API source, a blog authored with markdown files, and everything styled with the power and beauty of Tailwind CSS. This app is built into a static site, and can be easily deployed to a CDN with excellent SEO.
 
 This is a sample project created using the [Vue Designer îles Tailwind CSS - Quick start template](https://github.com/pinegrow/pg-iles-tailwindcss).
 
