@@ -14,7 +14,7 @@ export default defineConfig({
     }
   },
   siteUrl: 'https://natures-delight-with-iles-tailwindcss.netlify.app',
-  turbo: true,
+  // turbo: true,
   jsx: 'preact', // 'solid', 'react', 'vue'
   svelte: true,
   modules: [
