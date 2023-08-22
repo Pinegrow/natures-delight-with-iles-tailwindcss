@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { computed } from 'vue'
-  import { useNav } from '~/composables/nav'
+  import { useNav } from '@/composables/nav'
 
   const { navlinks, currentPath } = useNav()
   const desktopNavTabs = computed(() => {
@@ -46,7 +46,7 @@
                 </h6>
               </a>
             </div>
-            <NavBarDesktopTabs
+            <NavBarDesktopMenu
               :navlinks="desktopNavTabs"
               :current-path="currentPath"
               class="hidden sm:flex sm:ml-6"

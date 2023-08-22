@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { useArticles } from '~/composables/articles'
+  import { useArticles } from '@/composables/articles'
   export default definePageComponent({
     async getStaticPaths() {
       const { listArticles } = useArticles()
@@ -17,7 +17,7 @@
 
 <script setup lang="ts">
   import { computed } from 'vue'
-  import { Article } from '~/types'
+  import { Article } from '@/types'
 
   const props = defineProps<{ articleId: number }>()
   const { getArticle } = useArticles()

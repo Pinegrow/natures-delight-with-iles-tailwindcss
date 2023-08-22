@@ -1,8 +1,8 @@
 <script setup lang="ts">
   import { computed } from 'vue'
   import { useAppConfig } from 'iles'
-  import type { SideBarItem } from '~/types'
-  import { joinUrl } from '~/composables/utils'
+  import type { SideBarItem } from '@/types'
+  import { joinUrl } from '@/composables/utils'
 
   const props = defineProps<{
     item: SideBarItem

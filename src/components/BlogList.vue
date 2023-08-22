@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { getPosts } from '~/composables/posts'
+  import { getPosts } from '@/composables/posts'
   const posts = getPosts()
 </script>
 

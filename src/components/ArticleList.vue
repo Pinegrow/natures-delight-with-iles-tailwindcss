@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { useArticles, username, tag } from '~/composables/articles'
+  import { useArticles, username, tag } from '@/composables/articles'
 
   const { listArticles } = useArticles()
   const articles = await listArticles()

@@ -13,7 +13,7 @@ import 'uno.css'
 import '@/assets/css/tailwind.css'
 import 'prismjs/themes/prism-tomorrow.css'
 import { computed } from 'vue'
-import { checkDarkTheme } from '~/composables/dark-color-scheme-check'
+import checkDarkTheme from '@/composables/dark-color-scheme-check?raw'
 import type { Script } from '@unhead/schema'
 type TurboScript = Script & { once: true }
 

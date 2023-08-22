@@ -89,7 +89,7 @@ export default defineConfig({
           // 'vue/macros',
           // '@vueuse/head',
           // '@vueuse/core',
-          // 'pinia',
+          'pinia',
         ],
         dirs: [
           // 'src/composables',
