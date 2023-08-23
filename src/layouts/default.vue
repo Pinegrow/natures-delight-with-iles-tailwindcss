@@ -8,7 +8,7 @@
       <div class="mt-24 shadow">
         <slot />
       </div>
-      <TheFooter client:visible />
+      <TheFooter />
     </div>
   </div>
 </template>
