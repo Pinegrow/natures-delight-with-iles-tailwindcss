@@ -4,9 +4,9 @@
 <template>
   <main>
     <HeroSection />
-    <StatsSection />
+    <StatsSection client:none />
     <FeatureSection />
-    <TestimonialSection />
+    <TestimonialSection client:none />
     <SubscribeSection />
   </main>
 </template>
