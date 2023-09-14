@@ -32,7 +32,7 @@ export default defineApp({
         { property: 'author', content: site.author },
         { property: 'keywords', content: computed(() => frontmatter.tags) },
       ],
-      script: [{ children: checkDarkTheme, once: true } as TurboScript],
+      script: [{ innerHTML: checkDarkTheme, once: true } as TurboScript],
     }
   },
 })
