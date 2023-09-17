@@ -216,6 +216,10 @@ const pg_fonts = {
   serif: ["'Sora', sans-serif"],
 }
 
+const pg_font_urls = [
+  'https://fonts.googleapis.com/css?family=Proza+Libre:400,500,600,700,800|Sora:100,200,300,400,500,600,700,800&display=swap',
+]
+
 const pg_backgrounds = {
   'design-image':
     "url('https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE1OHx8d2FsbHBhcGVyfGVufDB8fHx8MTY4MjI1MjYyMQ&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max')",
@@ -232,5 +236,6 @@ const pg_backgrounds = {
 module.exports = {
   pg_colors,
   pg_fonts,
+  pg_font_urls,
   pg_backgrounds,
 }
