@@ -30,9 +30,7 @@
                 >
                   <img
                     class="h-12 rounded-3xl w-12"
-                    alt="..."
-                    width="400"
-                    height="400"
+                    :alt="article.user.name"
                     :src="article.user.profile_image"
                   />
                   <div>

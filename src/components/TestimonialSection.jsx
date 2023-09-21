@@ -17,7 +17,7 @@ const TestimonialSection = (
               <img
                 src="https://images.unsplash.com/photo-1574158622682-e40e69881006?ixid=MXwyMDkyMnwwfDF8c2VhcmNofDd8fGNhdHxlbnwwfHx8&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=360&h=360&fit=crop"
                 class="max-w-md mx-auto rounded-full w-full"
-                alt="..."
+                alt="testimonials"
                 width="240"
                 height="240"
               />

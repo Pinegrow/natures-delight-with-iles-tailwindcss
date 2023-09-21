@@ -32,7 +32,7 @@
       class="flex flex-col h-full overflow-hidden rounded-lg shadow surface-container"
     >
       <a class="-mt-2 -mx-6" :href="articleLink">
-        <img alt="..." :src="article.social_image" />
+        <img :alt="article.title" :src="article.social_image" />
       </a>
       <div class="grow p-4">
         <a class="-mx-6 mb-2 whitespace-pre-wrap" :href="articleLink">
@@ -69,9 +69,7 @@
           >
             <img
               class="h-12 rounded-3xl w-12"
-              alt="..."
-              width="400"
-              height="400"
+              :alt="article.user.name"
               :src="article.user.profile_image"
             />
             <div

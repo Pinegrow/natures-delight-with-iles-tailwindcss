@@ -23,13 +23,7 @@
     <div
       class="overflow-hidden text-neutral-900 dark:text-neutral-100 bg-neutral-50 dark:bg-neutral-900 rounded-lg"
     >
-      <img
-        class="group-hover:opacity-50 w-full"
-        alt="..."
-        width="500"
-        height="400"
-        :src="imageUrl"
-      />
+      <img class="group-hover:opacity-50 w-full" :alt="title" :src="imageUrl" />
       <div class="m-6">
         <h5>{{ title }}</h5>
         <div
