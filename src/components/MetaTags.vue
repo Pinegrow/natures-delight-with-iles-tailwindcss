@@ -1,12 +1,16 @@
+<script setup lang="ts">
+  import site from '@/site'
+  const { title, description, url, image } = site
+</script>
+
 <template>
   <Head>
-    <meta
-      property="twitter:image"
-      content="https://icons.vuetelescope.com/framework/iles.svg"
-    />
-    <meta property="twitter:image:alt" content="Nature's Delight" />
-    <meta property="twitter:site" content="@pinegrow" />
-    <meta property="twitter:card" content="summary" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta property="twitter:title" :content="title" />
+    <meta property="twitter:description" :content="description" />
+    <meta property="twitter:image" :content="image" />
+    <meta property="twitter:image:alt" :content="title" />
+    <meta property="twitter:site" :content="url" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- <meta property="twitter:card" content="summary" /> -->
   </Head>
 </template>

@@ -17,7 +17,7 @@ path: /feed.rss
     link: url,
     language: 'en',
     image: 'https://vuejs.org/images/logo.png',
-    favicon: `${url}/favicon.ico`,
+    favicon: `${url}/favicon.svg`,
     copyright:
       'Copyright (c) 2021-present, Yuxi (Evan) You and blog contributors',
   }
