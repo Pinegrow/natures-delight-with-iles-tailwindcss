@@ -50,8 +50,8 @@ export const headConfig = ({ frontmatter, site }) => {
       { property: 'keywords', content: computed(() => frontmatter.tags) },
     ],
     script: [{ innerHTML: checkDarkTheme, once: true } as TurboScript],
-    // link,
-    // noscript,
+    link,
+    noscript,
   }
 }
 
