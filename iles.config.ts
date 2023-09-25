@@ -102,10 +102,7 @@ export default defineConfig({
           // '@vueuse/core',
           'pinia',
         ],
-        dirs: [
-          // 'src/composables',
-          // 'src/stores',
-        ],
+        dirs: ['src/composables', 'src/stores'],
         vueTemplate: true,
         dts: 'auto-imports.d.ts',
       }),
