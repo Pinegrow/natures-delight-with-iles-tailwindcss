@@ -2,7 +2,7 @@
   import { computed } from 'vue'
   import { useAppConfig } from 'iles'
   import type { SideBarItem } from '@/types'
-  import { joinUrl } from '@/composables/utils'
+  import { joinUrl } from '@/utils'
 
   const props = defineProps<{
     item: SideBarItem

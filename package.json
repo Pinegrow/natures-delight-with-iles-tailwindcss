@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.0.2",
+    "@vueuse/head": "^2.0.0",
     "defu": "^6.1.2",
     "pinia": "^2.1.6",
     "vee-validate": "^4.11.6"
