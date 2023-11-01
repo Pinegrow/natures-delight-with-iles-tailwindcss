@@ -1,7 +1,7 @@
 <page>
     title: Articles
 </page>
-<template layout="default">
+<template>
   <section>
     <TheHeader>
       <div class="container mx-auto px-4">

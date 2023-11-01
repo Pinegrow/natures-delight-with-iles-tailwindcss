@@ -2,11 +2,11 @@
     title: Nature's Delight!
 </page>
 <template>
-  <main>
+  <div>
     <HeroSection />
     <StatsSection client:none />
     <FeatureSection />
     <TestimonialSection client:none />
     <SubscribeSection />
-  </main>
+  </div>
 </template>

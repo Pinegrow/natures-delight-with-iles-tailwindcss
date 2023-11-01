@@ -1,7 +1,7 @@
 <page>
     title: Contact Us
 </page>
-<template layout="default">
+<template>
   <section class="pb-12">
     <div
       class="py-12 bg-primary-600 dark:bg-primary-200 text-white dark:text-primary-800"

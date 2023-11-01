@@ -28,7 +28,7 @@
   })
 </script>
 
-<template layout="default">
+<template>
   <div>
     <ArticleCardHeader
       :cover="article.cover_image || article.social_image"
