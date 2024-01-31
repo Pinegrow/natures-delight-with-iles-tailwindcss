@@ -17,7 +17,7 @@
     "vue-devtools": "vue-devtools",
     "lint": "npm run lint:fix && npm run format",
     "lint:fix": "eslint --fix --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts ./ --ignore-path .gitignore",
-    "format": "prettier --write \"**/*.{vue,svelte,astro,js,jsx,cjs,mjs,ts,tsx,cts,mts,html,css,md,mdx,json}\" !public --ignore-path .gitignore"
+    "format": "prettier --write \"**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts,html,css,md,mdx,json}\" !public --ignore-path .gitignore"
   },
   "engines": {
     "node": "^14.18 || >= 16.0.0"
