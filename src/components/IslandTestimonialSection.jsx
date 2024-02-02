@@ -1,7 +1,7 @@
-const TestimonialSection = (
+const IslandTestimonialSection = (
   // eslint-disable-next-line no-empty-pattern
   {
-    /* name = 'TestimonialSection.jsx'*/
+    /* name = 'IslandTestimonialSection.jsx'*/
   },
 ) => (
   <section class="py-12">
@@ -46,4 +46,4 @@ const TestimonialSection = (
   </section>
 )
 
-export default TestimonialSection
+export default IslandTestimonialSection

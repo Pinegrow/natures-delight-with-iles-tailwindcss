@@ -4,9 +4,9 @@
 <template>
   <div>
     <HeroSection />
-    <StatsSection client:none />
+    <IslandStatsSection client:none />
     <FeatureSection />
-    <TestimonialSection client:none />
+    <IslandTestimonialSection client:none />
     <SubscribeSection />
   </div>
 </template>

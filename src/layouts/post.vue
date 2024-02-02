@@ -69,9 +69,9 @@
                         <a :href="prevPost.href">{{ prevPost.title }}</a>
                       </div>
                     </div>
-                    <BackLink class="block py-4" href="/blog" client:none
+                    <IslandBackLink class="block py-4" href="/blog" client:none
                       >Back to the blog
-                    </BackLink>
+                    </IslandBackLink>
                   </footer>
                 </div>
               </TableOfContents>

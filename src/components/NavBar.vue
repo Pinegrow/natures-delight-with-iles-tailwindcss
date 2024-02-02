@@ -46,26 +46,26 @@
                 </h6>
               </a>
             </div>
-            <NavBarDesktopMenu
+            <IslandNavBarDesktopMenu
               :navlinks="desktopNavTabs"
               :current-path="currentPath"
               class="hidden sm:flex sm:ml-6"
               client:media="screen and (min-width: 640px)"
             />
           </div>
-          <DarkModeSwitch client:load />
+          <IslandDarkModeSwitch client:load />
           <div class="-mr-2 items-center relative">
-            <NavBarMobileMenuButton
+            <IslandNavBarMobileMenuButton
               v-if="mobileNavTabs.length"
               class="hidden sm:block"
               client:load
             />
-            <NavBarMobileMenuButton
+            <IslandNavBarMobileMenuButton
               v-if="navlinks.length"
               class="sm:hidden"
               client:load
             />
-            <NavBarMobileMenu
+            <IslandNavBarMobileMenu
               class="hidden sm:flex sm:justify-end absolute right-0 mt-4"
               :navlinks="mobileNavTabs"
               :current-path="currentPath"
@@ -74,7 +74,7 @@
           </div>
         </div>
       </div>
-      <NavBarMobileMenu
+      <IslandNavBarMobileMenu
         class="sm:hidden"
         :navlinks="navlinks"
         :current-path="currentPath"
