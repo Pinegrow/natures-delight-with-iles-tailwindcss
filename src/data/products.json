@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Tangerine Orange",
+    "pricePerKg": "2.5",
+    "imageUrl": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDk3fHxmcnVpdHxlbnwwfHx8fDE2MjkyMTY1NTM&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=500&h=400&fit=crop"
+  },
+  {
+    "id": 2,
+    "title": "Fuji Apple",
+    "pricePerKg": "2.5",
+    "imageUrl": "https://images.unsplash.com/photo-1569870499705-504209102861?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE3NXx8ZnJ1aXR8ZW58MHx8fHwxNjI5MjE2Njcx&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=500&h=400&fit=crop"
+  },
+  {
+    "id": 3,
+    "title": "Queen Pineapple",
+    "pricePerKg": "2.5",
+    "imageUrl": "https://images.unsplash.com/photo-1550828520-4cb496926fc9?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDR8fHBpbmVhcHBsZXxlbnwwfHx8fDE2MjkyMTcxMzY&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=500&h=400&fit=crop"
+  },
+  {
+    "id": 4,
+    "title": "Red Silk Pomegranate",
+    "pricePerKg": "2.5",
+    "imageUrl": "https://images.unsplash.com/photo-1541344999736-83eca272f6fc?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDMzOXx8ZnJ1aXR8ZW58MHx8fHwxNjI5MjE2NzYz&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=500&h=400&fit=crop"
+  },
+  {
+    "id": 5,
+    "title": "Hass Avacado",
+    "pricePerKg": "2.5",
+    "imageUrl": "https://images.unsplash.com/photo-1583029901628-8039767c7ad0?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDh8fGF2b2NhZG98ZW58MHx8fHwxNjI5MjE3NzI3&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=500&h=400&fit=crop"
+  },
+  {
+    "id": 6,
+    "title": "Cavendish Banana",
+    "pricePerKg": "2.5",
+    "imageUrl": "https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDEzfHxiYW5hbmF8ZW58MHx8fHwxNjI5MjIwOTQz&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=500&h=400&fit=crop"
+  },
+  {
+    "id": 7,
+    "title": "Albion Strawberry",
+    "pricePerKg": "2.5",
+    "imageUrl": "https://images.unsplash.com/photo-1543158181-e6f9f6712055?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDQyfHxzdHJhd2JlcnJ5fGVufDB8fHx8MTYyOTIxNzM3Ng&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=500&h=400&fit=crop"
+  },
+  {
+    "id": 8,
+    "title": "Klondike Melon",
+    "pricePerKg": "2.5",
+    "imageUrl": "https://images.unsplash.com/photo-1621961048737-a9993789e1ad?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDI5fHxtZWxvbnxlbnwwfHx8fDE2MjkyMjE2Mjc&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=500&h=400&fit=crop"
+  }
+]
