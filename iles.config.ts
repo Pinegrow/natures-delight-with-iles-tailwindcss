@@ -5,7 +5,7 @@ import type { LiveDesignerOptions } from '@pinegrow/vite-plugin'
 import AutoImportAPIs from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
 import presetIcons from '@unocss/preset-icons'
-// import VueDevTools from 'vite-plugin-vue-devtools'
+import VueDevTools from 'vite-plugin-vue-devtools'
 // import myIlesModule from './src/modules/my-module'
 
 // import { visualizer } from 'rollup-plugin-visualizer'
@@ -150,7 +150,7 @@ export default defineConfig({
           },
         },
       }),
-      // VueDevTools(),
+      VueDevTools(),
     ],
 
     // build: {
