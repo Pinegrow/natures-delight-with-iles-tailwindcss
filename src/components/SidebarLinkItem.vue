@@ -14,8 +14,9 @@
 
   const link = computed(() => props.item.link && joinUrl(base, props.item.link))
 
+  const route = useRoute()
   const active = computed(() => {
-    return useRoute().hash === link.value
+    return route.hash === link.value
   })
 </script>
 <template>

@@ -2,6 +2,7 @@
   "name": "natures-delight-with-iles-tailwindcss",
   "version": "0.0.0",
   "homepage": "https://natures-delight-with-iles-tailwindcss.netlify.app",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/pinegrow/natures-delight-with-iles-tailwindcss.git"
@@ -9,7 +10,6 @@
   "scripts": {
     "dev": "iles dev",
     "now": "npm run build && npm run preview",
-    "lighthouse:dev": "npx unlighthouse --no-cache --site http://localhost:5173",
     "lighthouse": "npx unlighthouse --no-cache --site https://natures-delight-with-iles-tailwindcss.netlify.app",
     "build": "iles build",
     "preview": "iles preview --open --port 5050",
@@ -48,7 +48,7 @@
     "autoprefixer": "^10.4.14",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.7.0",
-    "iles": "0.9.5",
+    "iles": "^0.9.5",
     "npm-run-all": "^4.1.5",
     "ofetch": "^1.0.1",
     "postcss": "^8.4.22",
@@ -67,6 +67,10 @@
     "vue-tsc": "^1.2"
   },
   "web-types": "web-types.json",
+  "overrides": {
+    "vue": "3.3",
+    "vite": "4.4"
+  },
   "pnpm": {
     "overrides": {
       "vue": "3.3",

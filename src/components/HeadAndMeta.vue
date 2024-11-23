@@ -42,7 +42,7 @@
   const { title, description, url, author } = siteDefn
 
   const { frontmatter, site } = usePage()
-  const imgUrl = $computed(() => `${site.url}${image}`)
+  const imgUrl = `${site.url}${image}`
 
   useSeoMeta({
     // charset: 'utf-8',

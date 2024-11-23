@@ -4,13 +4,14 @@
     async getStaticPaths() {
       const { listArticles } = useArticles()
       const articles = await listArticles()
-      return articles.map((article) => ({
+      const staticPaths = articles.map((article) => ({
         // Specify the parameters for the page.
         params: { id: String(article.id) },
 
         // Pass any data needed to render the page.
         props: { articleId: article.id },
       }))
+      return staticPaths
     },
   })
 </script>
