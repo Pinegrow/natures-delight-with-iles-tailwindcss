@@ -1,5 +1,5 @@
 <script lang="ts">
-  // export let name = 'IslandStatsSection.svelte'
+  // export let name = 'StatsSection.svelte'
 </script>
 
 <section class="py-12">

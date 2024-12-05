@@ -6,6 +6,8 @@ import AutoImportAPIs from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
 import presetIcons from '@unocss/preset-icons'
 import VueDevTools from 'vite-plugin-vue-devtools'
+import { unheadComposablesImports } from 'unhead'
+
 // import myIlesModule from './src/modules/my-module'
 
 // import { visualizer } from 'rollup-plugin-visualizer'
@@ -38,6 +40,9 @@ export default defineConfig({
         liveDesigner: {
           iconPreferredCase: 'unocss', // default value (can be removed), unocss by default uses the unocss format for icon names
           devtoolsKey: 'devtoolsKey', // see app.ts
+          experimental: {
+            editableFileTypes: ['.rc'],
+          },
           tailwindcss: {
             configPath: 'tailwind.config.ts',
             cssPath: '@/assets/css/tailwind.css',
@@ -125,7 +130,7 @@ export default defineConfig({
           // 'vue-router',
           // 'vue-i18n',
           // 'vue/macros',
-          '@vueuse/head',
+          unheadComposablesImports[0],
           '@vueuse/core',
           'pinia',
         ],
