@@ -18,7 +18,7 @@
 <script setup lang="ts">
   import { Article } from '@/types'
 
-  const props = defineProps<{ articleId: number }>()
+  const props = defineProps<{ articleId: string }>()
   const { getArticle } = useArticles()
   const article: Article = await getArticle(+props.articleId)
 
