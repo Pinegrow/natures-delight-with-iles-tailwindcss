@@ -1,14 +1,12 @@
 <script setup lang="ts">
-  import { computed } from 'vue'
-  import { useNavMenu } from '@/composables/nav-menu'
+  defineProps({
+    currentPath: {
+      type: String,
+      default: '/',
+    },
+  })
 
-  const { navlinks, currentPath } = useNavMenu()
-  const desktopNavTabs = computed(() => {
-    return navlinks.value.slice(0, 2)
-  })
-  const mobileNavTabs = computed(() => {
-    return navlinks.value.slice(2, navlinks.value.length)
-  })
+  const { allNavs, navsPrimary, navsSecondary } = useNavMenu()
 </script>
 <template>
   <div class="w-full">
@@ -46,8 +44,8 @@
                 </h6>
               </a>
             </div>
-            <NavBarDesktopMenu
-              :navlinks="desktopNavTabs"
+            <NavPrimary
+              :navs="navsPrimary"
               :current-path="currentPath"
               class="hidden sm:flex sm:ml-6"
               client:media="screen and (min-width: 640px)"
@@ -55,28 +53,24 @@
           </div>
           <DarkModeSwitch client:load />
           <div class="-mr-2 items-center relative">
-            <NavBarMobileMenuButton
-              v-if="mobileNavTabs.length"
+            <NavHamburger
+              v-if="navsSecondary.length"
               class="hidden sm:block"
               client:load
             />
-            <NavBarMobileMenuButton
-              v-if="navlinks.length"
-              class="sm:hidden"
-              client:load
-            />
-            <NavBarMobileMenu
+            <NavHamburger v-if="allNavs.length" class="sm:hidden" client:load />
+            <NavSecondary
               class="hidden sm:flex sm:justify-end absolute right-0 mt-4"
-              :navlinks="mobileNavTabs"
+              :navs="navsSecondary"
               :current-path="currentPath"
               client:media="screen and (min-width: 640px)"
             />
           </div>
         </div>
       </div>
-      <NavBarMobileMenu
+      <NavSecondary
         class="sm:hidden"
-        :navlinks="navlinks"
+        :navs="allNavs"
         :current-path="currentPath"
         client:media="screen and (max-width: 640px)"
       />

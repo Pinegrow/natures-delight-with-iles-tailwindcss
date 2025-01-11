@@ -258,7 +258,7 @@
         "pg.html"
       ]
     },
-    "src/components/NavBarMobileMenuButton.vue": {
+    "src/components/NavHamburger.vue": {
       "last_used_route": "/",
       "frameworks": [
         "@vue/devtools",
@@ -304,7 +304,7 @@
       ],
       "last_used_route": "/"
     },
-    "src/components/NavBarMobileMenu.vue": {
+    "src/components/NavSecondary.vue": {
       "last_used_route": "/articles",
       "frameworks": [
         "@vue/devtools",
@@ -1768,13 +1768,13 @@
       "open-page-views": [{ "w": 1024, "h": 0 }]
     },
     "src/pages/about.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
-    "src/components/NavBarMobileMenuButton.vue": {
+    "src/components/NavHamburger.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
     },
     "src/components/NavBarDesktopTabs.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
     },
-    "src/components/NavBarMobileMenu.vue": {
+    "src/components/NavSecondary.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
     },
     "src/components/HeroSection.vue": {

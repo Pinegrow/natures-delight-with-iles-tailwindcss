@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { useArticles } from '@/composables/articles'
   export default definePageComponent({
     async getStaticPaths() {
       const { listArticles } = useArticles()
@@ -17,16 +16,14 @@
 </script>
 
 <script setup lang="ts">
-  import { computed } from 'vue'
   import { Article } from '@/types'
 
   const props = defineProps<{ articleId: number }>()
   const { getArticle } = useArticles()
   const article: Article = await getArticle(+props.articleId)
 
-  useHead({
-    title: computed(() => article.title),
-  })
+  const { frontmatter } = usePage()
+  frontmatter.title = article.title
 </script>
 
 <template>
