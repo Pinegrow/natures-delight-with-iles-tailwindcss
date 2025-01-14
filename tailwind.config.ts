@@ -4,16 +4,21 @@ import {
   pg_backgrounds,
 } from './themes/pg-tailwindcss/tokens.mjs'
 
+import { getFontsWithFallback } from './src/utils/font'
 import { safelist } from './src/utils/colors'
+
+import tailwindTypography from '@tailwindcss/typography'
+import tailwindForms from '@tailwindcss/forms'
+import tailwindCssPluginPinegrow from '@pinegrow/tailwindcss-plugin'
 
 export default {
   darkMode: 'class',
   plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('@pinegrow/tailwindcss-plugin').default({
+    tailwindTypography,
+    tailwindForms,
+    tailwindCssPluginPinegrow({
       colors: pg_colors, // primary, secondary etc
-      fonts: pg_fonts,
+      fonts: getFontsWithFallback(pg_fonts),
       backgrounds: pg_backgrounds, // bg-design-image, bg-design-image-large
     }),
   ],
@@ -23,7 +28,7 @@ export default {
   get content() {
     const _content = [
       './index.html',
-      './src/**/*.{vue,svelte,astro,js,jsx,cjs,mjs,ts,tsx,cts,mts,html,md,mdx,json}',
+      './src/**/*.{html,vue,svelte,astro,js,jsx,cjs,mjs,ts,tsx,cts,mts,css,md,mdx,json}',
     ]
     return process.env.NODE_ENV === 'production'
       ? _content

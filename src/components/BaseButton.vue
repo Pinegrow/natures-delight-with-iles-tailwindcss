@@ -110,7 +110,6 @@
     },
   })
 
-  // eslint-disable-next-line vue/no-dupe-keys
   const ui = computed<Partial<typeof appConfig.ui.button>>(() =>
     defu({}, props.ui, appConfig.ui.button),
   )

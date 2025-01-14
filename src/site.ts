@@ -3,12 +3,14 @@
 // @unocss-include
 
 export default {
-  title: `Nature's Delight`,
+  title: "Nature's Delight",
   description: 'Healthy Organic Products',
   logo: 'i-vscode-icons:file-type-coffeelint',
   author: 'Pinegrow',
   url: 'https://natures-delight-with-iles-tailwindcss.netlify.app',
   github: 'https://github.com/pinegrow/natures-delight-with-iles-tailwindcss',
+  ogImageUrl: 'og-image.jpg', // absolute url (or) from public folder
+  generator: 'https://vuedesigner.com',
   defaultLocale: 'en', // default
   identity: {
     type: 'Organization',

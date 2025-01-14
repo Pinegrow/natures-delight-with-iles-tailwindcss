@@ -1,6 +1,7 @@
 <page>
     title: Nature's Delight!
 </page>
+
 <template>
   <div>
     <HeroSection />

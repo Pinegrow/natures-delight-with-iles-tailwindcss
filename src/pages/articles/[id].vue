@@ -1,4 +1,6 @@
 <script lang="ts">
+  /* eslint-disable import/first */
+  /* https://github.com/directus/eslint-config/issues/2 */
   export default definePageComponent({
     async getStaticPaths() {
       const { listArticles } = useArticles()
@@ -16,7 +18,7 @@
 </script>
 
 <script setup lang="ts">
-  import { Article } from '@/types'
+  import type { Article } from '@/types'
 
   const props = defineProps<{ articleId: string }>()
   const { getArticle } = useArticles()
